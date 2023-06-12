@@ -1,3 +1,6 @@
 profile:
   name: Customer Profile Dev
   description: This is a dev profile
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/booking
