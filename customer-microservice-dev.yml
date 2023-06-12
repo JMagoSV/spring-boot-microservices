@@ -4,3 +4,7 @@ profile:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/booking
+      
+logging:
+  pattern: 
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
