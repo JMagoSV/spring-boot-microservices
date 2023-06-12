@@ -1,3 +1,6 @@
 profile:
   name: Customer Profile Prod
   description: This is a prod profile
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/booking
